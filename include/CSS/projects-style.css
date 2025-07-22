@@ -1,0 +1,263 @@
+/* Projects Hero */
+.projects-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/pexels-pavel-danilyuk-8112184.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+/* Project Cards */
+.residentialSwiper .swiper-wrapper{
+    height: auto !important;
+}
+
+.residentialSwiper .project-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s ease;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--box-shadow-hover);
+}
+
+.project-image {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.05);
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-details {
+    padding: 20px;
+}
+
+.project-details h3 {
+    color: var(--primary-dark);
+    margin-bottom: 10px;
+}
+
+.project-location {
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+.project-description {
+    color: var(--dark-gray);
+    margin-bottom: 0;
+}
+
+/* Large Projects */
+.commercial-projects-row .project-card{
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+    height: 100%;
+}
+.commercial-projects-row .card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-body{
+    flex: 0;
+}
+
+.card-title{
+    color: var(--primary-dark);
+}
+
+.project-card-image {
+    overflow: hidden;
+    height: 250px;
+}
+
+.project-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-card-image img {
+    transform: scale(1.05);
+}
+
+.project-features {
+    margin-top: 30px;
+}
+
+.project-features .feature {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.project-features .feature-icon {
+    width: 60px;
+    height: 60px;
+    background: rgba(38, 94, 151, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 24px;
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+
+.project-features .feature-text h4 {
+    color: var(--primary-dark);
+    margin-bottom: 5px;
+}
+
+.btn-primary:hover i {
+    transform: translateX(-3px);
+    transition: transform 0.3s ease;
+}
+
+
+
+/* Finishing Projects */
+.finishing-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s ease;
+}
+
+.finishing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow-hover);
+}
+
+.finishing-image {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.finishing-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.finishing-card:hover .finishing-image img {
+    transform: scale(1.1);
+}
+
+.finishing-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: white;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.finishing-card:hover .finishing-overlay {
+    transform: translateY(0);
+}
+
+.finishing-overlay h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+/* Swiper Customization */
+.swiper {
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: var(--light-gray);
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--primary-color);
+}
+
+
+.swiper-slide {
+    display: flex;
+    height: auto;
+}
+
+.residential-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+    .projects-hero {
+        padding: 100px 0 60px;
+    }
+    
+    .project-image {
+        height: 200px;
+    }
+    
+    .finishing-image {
+        height: 200px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .project-large .row {
+        flex-direction: column;
+    }
+    
+    .project-large .col-lg-6:last-child {
+        margin-top: 30px;
+    }
+}

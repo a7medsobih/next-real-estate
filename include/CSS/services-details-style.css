@@ -1,0 +1,81 @@
+/* Hero Section */
+.services-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../IMG/pexels-pavel-danilyuk-8112184.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+
+/* Service Intro */
+.service-intro {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-container {
+    transition: var(--transition);
+    max-width: 40%;
+    float: left;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    z-index: 10;
+}
+
+@media (max-width: 768px) {
+    .img-container {
+        max-width: 100%;
+        float: none;
+        margin: 0 auto 2rem;
+    }
+}
+
+.img-container:hover {
+    transform: translateY(-5px);
+}
+
+.service-details ul li {
+    position: relative;
+    padding-right: 25px;
+    margin-bottom: 10px;
+}
+
+.service-details ul li i {
+    position: absolute;
+    right: 0;
+    top: 3px;
+}
+
+.swiper-slide img {
+    height: 300px; /* أو أي ارتفاع يناسب التصميم */
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Swiper Navigation Arrows */
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: rgba(0, 123, 255, 0.1); /* خلفية شفافة */
+    color: var(--primary-color); /* لون السهم */
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* لتغيير شكل الأيقونة */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 20px;
+    font-weight: bold;
+}

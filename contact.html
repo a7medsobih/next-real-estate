@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تواصل مع Next Real Estate - نحن هنا لمساعدتك في جميع استفساراتك العقارية">
+    <title>اتصل بنا - Next Real Estate</title>
+    <link rel="icon" type="image/png" href="include/IMG/icon1.png" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="include/CSS/bootstrap.rtl.min.css" as="style">
+    <link rel="preload" href="include/CSS/main-style.css" as="style">
+
+    <!-- Bootstrap CSS -->
+    <link href="include/CSS/bootstrap.rtl.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="include/CSS/all.min.css">
+    
+    <!-- AOS CSS -->
+    <link href="include/CSS/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="include/CSS/main-style.css">
+    <link rel="stylesheet" href="include/CSS/contact-style.css">
+
+    <!-- Preconnect to important origins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div id="nav"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Banner -->
+        <section class="hero-section contact-hero text-white py-5">
+            <div class="container  py-5">
+                <div class="row align-items-center">
+                        <div class="hero-content">
+                            <h1 class="display-4 fw-bold mt-5" data-aos="fade-up">تواصل معنا</h1>
+                            <p class="lead mb-4" data-aos="fade-up" data-aos-delay="100">
+                                نحن هنا لمساعدتك في جميع استفساراتك العقارية. فريقنا من الخبراء جاهز لتقديم أفضل الحلول التي تناسب احتياجاتك.
+                            </p>
+                            <div class="hero-btns " data-aos="fade-up" data-aos-delay="200">
+                                <a href="#contact-form" class="btn btn-primary btn-lg me-3">أرسل رسالتك</a>
+                                <a href="tel:01001234567" class="btn btn-outline-light btn-lg">
+                                    <i class="fas fa-phone-alt me-2"></i>اتصل الآن
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form-section py-5" id="contact-form">
+            <div class="container">
+                <div class="section-header text-center mb-5">
+                    <h2 class="display-5 mb-3" data-aos="fade-up">
+                        <i class="fas fa-envelope-open-text text-secondary me-2"></i>
+                        ابقى على تواصل
+                    </h2>
+                    <p class="text-muted" data-aos="fade-up" data-aos-delay="100">
+                        املأ النموذج أدناه وسيتصل بك أحد مستشارينا قريبًا
+                    </p>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form class="contact-form" data-aos="fade-up">
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">الاسم بالكامل</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group">
+                                        <label for="phone" class="form-label">رقم الهاتف</label>
+                                        <input type="tel" class="form-control" id="phone" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">البريد الإلكتروني</label>
+                                        <input type="email" class="form-control" id="email">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group">
+                                        <label for="subject" class="form-label">الموضوع</label>
+                                        <select class="form-select" id="subject">
+                                            <option value="" selected disabled>اختر الموضوع</option>
+                                            <option value="استفسار عام">استفسار عام</option>
+                                            <option value="عقار للبيع">عقار للبيع</option>
+                                            <option value="عقار للإيجار">عقار للإيجار</option>
+                                            <option value="استشارة عقارية">استشارة عقارية</option>
+                                            <option value="شكوى أو اقتراح">شكوى أو اقتراح</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="form-group">
+                                    <label for="message" class="form-label">الرسالة</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">إرسال الرسالة</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Info Section -->
+        <section class="contact-info-section py-5 bg-light">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="contact-info-card" data-aos="fade-up">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3 class="contact-info-title">العنوان</h3>
+                            <p class="contact-info-text">123 شارع الأعمال، المنطقة التجارية، القاهرة، مصر
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-info-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <h3 class="contact-info-title">هاتفنا</h3>
+                            <p class="contact-info-text">
+                                <a href="tel:00966111234567">00966 11 123 4567</a>
+                                <a href="tel:01001234567">0100 123 4567</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-info-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3 class="contact-info-title">البريد الإلكتروني</h3>
+                            <p class="contact-info-text">
+                                <a href="mailto:info@nextrealestate.com">info@nextrealestate.com</a>
+                                <a href="mailto:support@nextrealestate.com">support@nextrealestate.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="container-fluid p-0">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.324771976079!2d46.67541531500023!3d24.84175898407141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee3e9b4d4e4e5%3A0x3e2ee3e9b4d4e4e5!2sRiyadh%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" 
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="العودة إلى الأعلى">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Floating Contact Button -->
+    <button type="button" class="contact-info-btn" id="toggleContact" aria-label="معلومات التواصل">
+        <i class="fas fa-phone-alt"></i>
+        <span class="contact-pulse"></span>
+    </button>
+
+    <!-- Contact Info Box -->
+    <div class="contact-info-box" id="contactInfo">
+        <div class="contact-body">
+            <a href="tel:01001234567" class="contact-item">
+                <div class="contact-icon phone">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="contact-details">
+                    <span class="contact-label">اتصل بنا</span>
+                    <span class="contact-value">0100 123 4567</span>
+                </div>
+            </a>
+
+            <a href="https://wa.me/201009876543" target="_blank" class="contact-item whatsapp">
+                <div class="contact-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="contact-details">
+                    <span class="contact-label">واتساب</span>
+                    <span class="contact-value">0100 987 6543</span>
+                </div>
+            </a>
+
+            <a href="mailto:info@nextrealestate.com" class="contact-item email">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                    <span class="contact-label">البريد الإلكتروني</span>
+                    <span class="contact-value">info@nextrealestate.com</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- GSAP -->
+    <script src="include/JS/gsap.min.js"></script>
+    <script src="include/JS/ScrollTrigger.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="include/JS/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="include/JS/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="include/JS/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="include/JS/main.js"></script>
+
+    <script>
+        // Initialize AOS
+        AOS.init();
+
+        fetch("nav.html").then(res => res.text()).then(data => {
+            document.getElementById("nav").innerHTML = data;
+            // فعل الـ active class بعد التحميل
+            let current = window.location.pathname.split("/").pop();
+            if (!current.includes('.html'))
+                current += '.html';
+            document.querySelectorAll(".navbar .nav-link").forEach(link => {
+                if (link.getAttribute("href") === current) {
+                    link.classList.add("active");
+                } else {
+                    link.classList.remove("active");
+                }
+            });
+        });
+
+        fetch("footer.html").then(res => res.text()).then(data => {
+            document.getElementById("footer").innerHTML = data;
+        });
+
+        $(document).ready(function () {
+            // Back to Top Button
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 300) {
+                    $('.back-to-top').addClass('active');
+                } else {
+                    $('.back-to-top').removeClass('active');
+                }
+            });
+
+            $('.back-to-top').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 'smooth');
+                return false;
+            });
+        });
+
+        $(function () {
+            // عند الضغط على زر الاتصال
+            $('#toggleContact').on('click', function (e) {
+                e.stopPropagation();
+                $('#contactInfo').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+
+            // عند الضغط على زر الإغلاق داخل الصندوق
+            $('.close-contact').on('click', function (e) {
+                e.stopPropagation();
+                $('#contactInfo').removeClass('active');
+                $('#toggleContact').removeClass('active');
+            });
+
+            // إغلاق عند الضغط خارج الصندوق أو الزر
+            $(document).on('click', function (e) {
+                if (!$(e.target).closest('#contactInfo, #toggleContact').length) {
+                    $('#contactInfo').removeClass('active');
+                    $('#toggleContact').removeClass('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
