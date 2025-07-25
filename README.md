@@ -5,7 +5,7 @@ A fully designed responsive website for **Next Real Estate**, a modern property 
 ## 🌐 Live Demo
 <a href="https://a7medsobih.github.io/next-real-estate/" target="_blank">🔗 View Website</a>
 
-✅ Official website is live at: next-cons.com
+✅ Official website is live at: [next-cons.com](https://next-cons.com)
 
 ## 🖌️ Design Overview
 The website is crafted from scratch with a **clean and professional layout** tailored for the real estate businesses.
